@@ -15,9 +15,9 @@ import java.util.Scanner;
  */
 public class Client {
 
-    //duheng 's ip
+    //服务端启动后的ip
     private static final String HOST = System.getProperty("host", "10.1.132.194");
-    //port 8090
+    //服务端通讯端口 8090
     private static final int PORT = Integer.parseInt(System.getProperty("port", "8090"));
 
     public static void main(String[] args) throws Exception {
